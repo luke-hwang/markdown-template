@@ -7,7 +7,7 @@ export function Info({ asyncapi, params }) {
   return (
     <>
       <Header type={1}>
-        {info.title()} {params.version || info.version()} documentation
+        {info.title()} {params.version || info.version()}
       </Header>
 
       {info.description() && (
